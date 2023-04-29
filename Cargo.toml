@@ -19,7 +19,7 @@ include = [
 
 [dependencies]
 egui = "0.21.0"
-egui-miniquad = "0.14.0"
+egui-miniquad = { git = "https://github.com/vini-fda/egui-miniquad", branch="master" }
 macroquad = { version="0.3.25", default-features=false }
 
 [features]
